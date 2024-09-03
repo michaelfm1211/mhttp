@@ -8,7 +8,7 @@ struct map *map_new(void)
 	struct map *m;
 
 	m = malloc(sizeof(struct map));
-	m->nodes = calloc(sizeof(struct map_node), 16);
+	m->nodes = calloc(16, sizeof(struct map_node));
 	m->cap = 16;
 	m->size = 0;
 	return m;
