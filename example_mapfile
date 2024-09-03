@@ -1,0 +1,4 @@
+TXT /hello Hello, world!
+FILE /readme README.me text/text
+LINK / /hello
+LINK /repo https://github/michaelfm1211/mhttp
